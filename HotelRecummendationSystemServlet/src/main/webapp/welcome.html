@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 150px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .login-option {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        .login-button {
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .login-button:hover {
+            background-color: #45a049;
+        }
+        a{
+			text-decoration: none;
+			color: #fff;
+		}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Hotel Recommendation</h1>
+        <div class="login-option">
+            <button class="login-button" ><a href="LoginAdmin.html">Admin Login</a></button>
+            <button class="login-button" ><a href="userhome.jsp">User Login</a></button>
+        </div>
+    </div>
+</body>
+</html>

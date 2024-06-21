@@ -1,0 +1,37 @@
+ body {
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: Arial, sans-serif;
+ }
+
+ .navbar-menu {
+ 	background-color: #333;
+ 	padding: 10px;
+ }
+
+ .menu {
+ 	list-style-type: none;
+ 	margin: 0;
+ 	padding: 0;
+ 	overflow: hidden;
+ }
+
+ .menu li {
+ 	float: left;
+ 	margin-right: 20px;
+ }
+
+ .menu li a {
+ 	display: block;
+ 	color: white;
+ 	text-align: center;
+ 	text-decoration: none;
+ }
+
+ .menu li a:hover {
+ 	color: #66ccff;
+ }
+
+ .log {
+ 	float: right;
+ }
